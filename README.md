@@ -52,3 +52,28 @@ To use them:
         filter: blur(var(--blur));
       }
 ```
+
+### DAY 4 - Array Cardio Part 1
+
+#### CONSOLE.TABLE
+
+Better way to log arrays and objects representating in visual table looking way.
+
+#### JS ARRAY FUNCTIONS
+
+- map
+- filter
+- reduce
+- sort
+
+### DAY 5 - FLEX PANELS IMAGE GALLERY
+
+#### CSS TOGGLE CLASS
+
+`<dom element>.classList.toggle(<class name>)`
+
+#### CSS SELECT
+
+#### FLEX
+
+- `flex: 1` tells the children items in the parent flex container to occupy the whole space within the parent equally. This property can be used to animate a given item by setting it to higher number, as done in the example.
