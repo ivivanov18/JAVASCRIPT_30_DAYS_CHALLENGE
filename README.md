@@ -77,3 +77,15 @@ Better way to log arrays and objects representating in visual table looking way.
 #### FLEX
 
 - `flex: 1` tells the children items in the parent flex container to occupy the whole space within the parent equally. This property can be used to animate a given item by setting it to higher number, as done in the example.
+
+### DAY 6 - AJAX TYPE AHEAD
+
+#### CHANGE EVENT
+
+Change event only fires when we go out of the input. If we want an event to fire on keyup use `keyup` event.
+
+#### `THIS` value in functions called from events listeners
+
+#### GET DATA FIRST
+
+Useful tip in the workflow: `Get the data first and then worry how to hook to events listeners and display it`.
