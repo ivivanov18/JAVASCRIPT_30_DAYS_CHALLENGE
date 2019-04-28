@@ -86,6 +86,31 @@ Change event only fires when we go out of the input. If we want an event to fire
 
 #### `THIS` value in functions called from events listeners
 
-#### GET DATA FIRST
+#### TIP - GET DATA FIRST
 
 Useful tip in the workflow: `Get the data first and then worry how to hook to events listeners and display it`.
+
+### DAY 7 - Array Cardio Part 2
+
+#### JS ARRAY FUNCTIONS
+
+- `some`: returns `true` if at least one element meets the given condition
+- `every`: returns `true` if all the elements meet the given condition
+- `find`: returns the element that meets the given condition
+- `findIndex`: returns the index of the element that meets the given condition
+- `splice` modifies the current array by deleting the number of elements specified from the specified index.
+- `slice` is another way to do it without modifiying the original array. The same as `<array>.splice(index, 1)` can be achieved the following way with `slice`:
+
+```
+  const newComments = [
+    ...comments.slice(0, index), // takes from 0 to index - 1 and spreads it
+    ...comments.slice(index + 1) // takes from index + 1 till end and spreads it
+  ];
+```
+
+Personally, I prefer the second way which is a more functional programming way to do and that is without modifiying the initial object.
+
+#### CONSOLE.LOG({<variable>})
+
+Logs the following way:
+`{<variable>: true}` instead of just `true`.
