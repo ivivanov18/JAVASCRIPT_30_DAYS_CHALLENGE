@@ -174,3 +174,9 @@ To count all the times that the console.count has been logged out with the given
 #### CONSOLE.TIME
 
 Start with `console.time(<string indicating what we are measuring>)` , do the action, then at the end finish with `console.timeEnd(<same string as in the beginning of timer>)`
+
+### DAY 10 - Hold Shift To Check Multiple Checkboxes
+
+#### Click event on checkbox
+
+Will fire even if you use your keyboard.
