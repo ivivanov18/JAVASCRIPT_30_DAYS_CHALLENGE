@@ -114,3 +114,28 @@ Personally, I prefer the second way which is a more functional programming way t
 
 Logs the following way:
 `{<variable>: true}` instead of just `true`.
+
+### DAY 8 - Fun with HTML5 Canvas
+
+#### Events
+
+- `mousedown`: start drawing
+- `mousemove`: draw
+- `mouseup`: stop drawing
+- `mouseout`: stop drawing
+
+#### HTML canvas and methods
+
+- `canvas` dom element
+- `const ctx = canvas.getContext("2d");`
+- Context properties:
+  - `strokeStyle`: color
+  - `lineJoin`:
+  - `lineCap`:
+  - `lineWidth`:
+
+#### HSL
+
+- Hue: degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.
+- Saturation: percentage value, 0% means a shade of gray and 100% is the full color.
+- Lightness: percentage value, 0% is black, 100% is white.
