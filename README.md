@@ -139,3 +139,38 @@ Logs the following way:
 - Hue: degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue.
 - Saturation: percentage value, 0% means a shade of gray and 100% is the full color.
 - Lightness: percentage value, 0% is black, 100% is white.
+
+### DAY 9 - 14 Must Know Dev Tools Tricks
+
+#### How to find modifiers, event listeners JS functions
+
+In the console, click on given DOM elements and select `Break on --> attribute modifications`. When code is executed, the source of the page will be opened and the execution stopped on the function that is modifiying the attribute
+
+#### How to style a console.log
+
+Add a `%c` in the console.log in front of the element that needs to be styled, and add a second argument containing the style that you want to apply. As an example:
+`console.log("%c i am some great text","font-size:50px; background: teal");`
+
+#### CONSOLE.DIR(<dom element>)
+
+Displays all the available methods of the given dom element and generally and of the stuff that lives within the given dom element.
+
+#### CONSOLE.GROUP
+
+To group the console.log of the different properties and/or information of the given object. The import is to use `console.group(<obj property>)` at the beginning of the group
+and `console.groupEnd(<same variable or obj property used at beginning>)`. `console.group(<obj property>)` can be replaced by `console.groupCollapsed(<obj property>)` to collapse all the displays by default.
+
+```
+        console.group(`${dog.name}`);
+        console.log(`Dog age is${dog.age}`);
+        console.log("${dog.name} is a ${dog.age * 7} dog years old");
+        console.groupEnd(`${dog.name}`);
+```
+
+#### CONSOLE.COUNT(<string>)
+
+To count all the times that the console.count has been logged out with the given string.
+
+#### CONSOLE.TIME
+
+Start with `console.time(<string indicating what we are measuring>)` , do the action, then at the end finish with `console.timeEnd(<same string as in the beginning of timer>)`
