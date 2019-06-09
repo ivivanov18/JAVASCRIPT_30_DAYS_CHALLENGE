@@ -180,3 +180,34 @@ Start with `console.time(<string indicating what we are measuring>)` , do the ac
 #### Click event on checkbox
 
 Will fire even if you use your keyboard.
+
+## DAY 11 - Custom HTML5 Video Player
+
+### How to access video method
+
+```
+const method = video.paused ? "play" : "pause";
+video[method]();
+```
+
+### Video properties
+
+- currentTime: the time where it is currently in the playing
+- duration: the duration of the file being played
+- paused: whether the video is currently paused. There is no play property
+
+### Video methods
+
+- play()
+- pause()
+
+### Video event listeners
+
+- play: when the play method is fired. Unlike the property, `paused`, there are a method `play` and a method `pause`
+- pause: when pause method is fired
+- timeupdate: when currentTime is updated
+- click: when clicked on the video plaayer
+
+### DAY 12 - Key Sequence Detection (Konami Sequence)
+
+#### SPLICE FROM END OF Array
